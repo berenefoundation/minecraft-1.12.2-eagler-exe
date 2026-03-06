@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Minecraft 1.12.2.exe" version="1.0.0.5" publicKeyToken="4f56ec2c68faee58" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="mc_fab.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Minecraft 1.12.2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Minecraft 1.12.2.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si quiere cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Web.WebView2.Core.dll" size="899696">
+      <assemblyIdentity name="Microsoft.Web.WebView2.Core" version="1.0.3848.0" publicKeyToken="2A8AB48044D2601E" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>4lea7CBFcrNB4Q15KggneaCWzBH2CViC5GoNaz3RzvA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Web.WebView2.WinForms.dll" size="39016">
+      <assemblyIdentity name="Microsoft.Web.WebView2.WinForms" version="1.0.3848.0" publicKeyToken="2A8AB48044D2601E" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>9p/8S997TjXvb/kke5XVt8gaKxGxrFF80TDwY1oYP3c=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Web.WebView2.Wpf.dll" size="82536">
+      <assemblyIdentity name="Microsoft.Web.WebView2.Wpf" version="1.0.3848.0" publicKeyToken="2A8AB48044D2601E" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>+6JQkc36VyT/4VF1HaEYeUNiYS5xwCY4JPKkh44h7/8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Minecraft 1.12.2.exe" size="43960">
+      <assemblyIdentity name="Minecraft 1.12.2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>iaxJ3q+ehfFHo5oOrUNIaF2hunzDqXrMhqNBuiRZFAw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="mc_fab.ico" size="12384">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>LWinkYhsNCrlaDoc1pGG40sqMwgVv+Ny5I6JnBHVWYg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Minecraft 1.12.2.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+CM46OnHRrXZXNLMx7+U3V3iubiYL//d8hGOR13lDhU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="runtimes\win-arm64\native\WebView2Loader.dll" size="147048">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>phADyEuLJ4hrT+xMx9xb821iywcHlkpX3gdNmLzMpV4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="runtimes\win-x64\native\WebView2Loader.dll" size="161896">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ktCnEB+F7RV5Bgag8Xujltk2OOsYHpbapa4Ccix96YU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="runtimes\win-x86\native\WebView2Loader.dll" size="121968">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>EdSU7lV08QjRLaMqwcDEppI8dj7ia2H/jsnoxAPp1NU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=AULA07\Aula 07" issuerKeyHash="fbea6ef72875bac435182437d7416ae6924b2729" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>5ZsgWrBOWItJlaX73TRwOMRakTRherUmQlOLT9ARvAo=</DigestValue></Reference></SignedInfo><SignatureValue>i4CHxgEzQ1hd8hxFQWaVuOXcrHcurpQCXvVf8D98LRhYKmPfZxSKxF2Tno2u64S/3P/VJ5h2j5UBKCGK3C9vV2NLDUrF1tFnNCnzc7c5KHN1pLZdIRfod7JQ0tgLCIZUa4SXGZX8FOdqbHuyKi2oo+c5H62Wat2GBw/rDVa9D50=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>3DQA4DQM6FNIWQpBMl3SnNK11oxAbwqf4uRqDCz+qAqIYM5UVv2lF373s50kg2r2Ys4u7nG5gRKcJUgmizKC3Mm8AnQS0iS23z0G5dlc0T3hwmLur5T9vy5sdp/ix+Ti/xNunRaHDyG0UjpUZnBAVV1ty7oDIFjiSj3tM1TkSeU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="0abc11d04f8b534226b57a6134915ac4387034ddfba595498b584eb05a209be5" Description="" Url=""><as:assemblyIdentity name="Minecraft 1.12.2.exe" version="1.0.0.5" publicKeyToken="4f56ec2c68faee58" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=AULA07\Aula 07</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>L+yG4TFz2oWoLLkw+k7s9d4/4vFvMX1cQt0jmNGKOsM=</DigestValue></Reference></SignedInfo><SignatureValue>WxioGUyn0tccl/ZQEGo6NvS4AtgFKT0Ao8xkxpUp7dZnHYACzBsurilAkqlWcMcZVjuQKd6bcU3eROg+BLEBCUMbB/IQufwo5Op1r4NTsuTp/TolimjvZGQMt3pgYbXTPrMWcvB9chrWOPF/e3qPcsIOGB6ny/AGdEkVBEk3DrY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>3DQA4DQM6FNIWQpBMl3SnNK11oxAbwqf4uRqDCz+qAqIYM5UVv2lF373s50kg2r2Ys4u7nG5gRKcJUgmizKC3Mm8AnQS0iS23z0G5dlc0T3hwmLur5T9vy5sdp/ix+Ti/xNunRaHDyG0UjpUZnBAVV1ty7oDIFjiSj3tM1TkSeU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQWHVDv80rBaxMIGGHVce19zANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwAQQBVAEwAQQAwADcAXABBAHUAbABhACAAMAA3MB4XDTI2MDMwNjE1NDc1NloXDTI3MDMwNjIxNDc1NlowJzElMCMGA1UEAx4cAEEAVQBMAEEAMAA3AFwAQQB1AGwAYQAgADAANzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA3DQA4DQM6FNIWQpBMl3SnNK11oxAbwqf4uRqDCz+qAqIYM5UVv2lF373s50kg2r2Ys4u7nG5gRKcJUgmizKC3Mm8AnQS0iS23z0G5dlc0T3hwmLur5T9vy5sdp/ix+Ti/xNunRaHDyG0UjpUZnBAVV1ty7oDIFjiSj3tM1TkSeUCAwEAATANBgkqhkiG9w0BAQsFAAOBgQALU7gY4Pw1YuGgL/58kCGJlzoQEeO+GG68YHkN+jwI/kShDTCpz7S11TxK3Jo44JCSOjjLBuq+/an6EvLDhg3YNVRXhUp75npHvad8jucHgetG/NMX1S9edCjgmwasPpxzegkXzseeYjVHwdl/799DhtKRlT16y5i9/prxQpAH0Q==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
